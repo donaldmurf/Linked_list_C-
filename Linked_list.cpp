@@ -4,6 +4,7 @@ using namespace std;
 struct Node {
     int data;
     Node* next;
+    
 };
 Node* head = NULL;
 
@@ -47,11 +48,20 @@ void remove(int data) {
 
 int main()
 {
- 
+ Node* a = new Node;
+ a->data = 50;
+ a->next = head;
+ head = a;
+
+for  (int i = 0; i < 30; i++)
+ {
+ insert(i);
+ }
+ traverse();
  
 
- 
-
+ cout << a->data << endl;
+traverse();
     return 0;
 }
 
