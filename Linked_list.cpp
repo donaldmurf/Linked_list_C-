@@ -48,27 +48,29 @@ void remove(int data) {
 int main()
 {
  
- for  (int i = 0; i < 30; i++)
- {
- insert(i);
- }
-
- for(int i = 0; i<30; i++)
- {
-   if(i%2==1)
-   {
-    remove(i);
-   } 
- }
-
- insert(17);
- insert(44);
- remove(17);
- remove(12);
  
- traverse();
 
  
 
     return 0;
 }
+
+// for  (int i = 0; i < 30; i++)
+//  {
+//  insert(i);
+//  }
+
+//  for(int i = 0; i<30; i++)
+//  {
+//    if(i%2==1)
+//    {
+//     remove(i);
+//    } 
+//  }
+
+//  insert(17);
+//  insert(44);
+//  remove(17);
+//  remove(12);
+ 
+//  traverse();
